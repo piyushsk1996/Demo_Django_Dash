@@ -88,11 +88,12 @@ DATABASES = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'udemy',
-        'USER': 'postgres',
-        'PASSWORD': '123456',
-        'HOST': 'localhost'
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django_dash_plotly',
+        'USER': 'root',
+        'PASSWORD': 'Piyu@1234',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
